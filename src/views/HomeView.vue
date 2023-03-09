@@ -1,9 +1,13 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<script>
+import WeatherWidget from '../components/WeatherWidget.vue';
+
+export default {
+  components: {
+    WeatherWidget
+  }
+}
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <WeatherWidget/>
 </template>
